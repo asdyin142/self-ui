@@ -6,6 +6,7 @@ const loaderFn = () => {
   const allExports = [
     require("../src/stories/Introduction.stories.mdx"),
     require(`../src/component/button/Button.stories.tsx`),
+    // require(`../src/component/demoButton/Button.stories.tsx`),
   ];
   return allExports;
 };
